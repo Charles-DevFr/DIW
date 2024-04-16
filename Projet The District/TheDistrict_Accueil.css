@@ -5,5 +5,129 @@
 
 #navbar {
     background-color: #303030;
+    border-radius: 20px;
 }
 
+#textnavbar {
+    color: #ff0000;
+    font-size: 20px;
+    
+}
+
+#imagenavbar {
+    margin-left: 20px;
+}
+
+#video {
+    border-radius: 40px;
+}
+
+.navbar-nav {
+    justify-content: center;
+}
+
+p {
+    height: 40px;
+    color: #303030;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#recherche {
+    width: 280px;
+    position: relative;
+    bottom: 240px; left: 40px;
+}
+
+
+#category1 {
+    border-radius: 80px;
+    border: 8px solid;
+    border-color: #979494;
+}
+#category2 {
+    border-radius: 80px;
+    border: 8px solid;
+    border-color: #979494;
+}
+#category3 {
+    border-radius: 80px;
+    border: 8px solid;
+    border-color: #979494;
+}
+#category4 {
+    border-radius: 80px;
+    border: 8px solid;
+    border-color: #979494;
+}
+#category5 {
+    border-radius: 80px;
+    border: 8px solid;
+    border-color: #979494;
+}
+#category6 {
+    border-radius: 80px;
+    border: 8px solid;
+    border-color: #979494;
+}
+
+#category01 {
+    display: block;
+    text-align: center;
+}
+#category02 {
+    display: block;
+    text-align: center;
+}
+#category03 {
+    display: block;
+    text-align: center;
+}
+#category04 {
+    display: block;
+    text-align: center;
+}
+#category05 {
+    display: block;
+    text-align: center;
+}
+#category06 {
+    display: block;
+    text-align: center;
+}
+
+#plat01 {
+    border-radius: 80px;
+    border: 8px solid;
+    border-color: #979494;
+}
+#plat02 {
+    border-radius: 80px;
+    border: 8px solid;
+    border-color: #979494;
+}
+#plat03 {
+    border-radius: 80px;
+    border: 8px solid;
+    border-color: #979494;
+}
+
+#plataccueil {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#imagereseau {
+    width: 280px;
+    position: absolute;
+    top: 144%;
+    left: 42%;
+}
+
+#reseausociaux1 {
+    width: 200px;
+    position: absolute;
+    top: 168%;
+    left: 44%;
+}
