@@ -36,6 +36,15 @@ p {
     font-weight: 600;
 }
 
+#recherche {
+    position: relative;
+    bottom: 360px; left: 40px;
+    background-color: #303030;
+    border-radius: 20px;
+    border-color: #979494;
+    color: #ff0000;
+}
+
 #category1 {
     border-radius: 80px;
     border: 8px solid;

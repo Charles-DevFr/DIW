@@ -37,9 +37,12 @@ p {
 }
 
 #recherche {
-    width: 280px;
     position: relative;
-    bottom: 240px; left: 40px;
+    bottom: 360px; left: 40px;
+    background-color: #303030;
+    border-radius: 20px;
+    border-color: #979494;
+    color: #ff0000;
 }
 
 
@@ -75,41 +78,38 @@ p {
 }
 
 #category01 {
-    display: block;
     text-align: center;
 }
 #category02 {
-    display: block;
     text-align: center;
 }
 #category03 {
-    display: block;
     text-align: center;
 }
 #category04 {
-    display: block;
     text-align: center;
 }
 #category05 {
-    display: block;
     text-align: center;
 }
 #category06 {
-    display: block;
     text-align: center;
 }
 
 #plat01 {
+    display: flex;
     border-radius: 80px;
     border: 8px solid;
     border-color: #979494;
 }
 #plat02 {
+    display: flex;
     border-radius: 80px;
     border: 8px solid;
     border-color: #979494;
 }
 #plat03 {
+    display: flex;
     border-radius: 80px;
     border: 8px solid;
     border-color: #979494;
@@ -145,3 +145,7 @@ svg text {
 }
 
 .wrapper {background-color: #F74A4A};
+
+@media screen and (max-width: 1200px) {
+    
+}
