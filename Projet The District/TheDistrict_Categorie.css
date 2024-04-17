@@ -36,13 +36,6 @@ p {
     font-weight: 600;
 }
 
-#recherche {
-    width: 280px;
-    position: relative;
-    bottom: 240px; left: 40px;
-}
-
-
 #category1 {
     border-radius: 80px;
     border: 8px solid;
@@ -99,29 +92,15 @@ p {
     text-align: center;
 }
 
-#plat01 {
-    border-radius: 80px;
-    border: 8px solid;
-    border-color: #979494;
-}
-#plat02 {
-    border-radius: 80px;
-    border: 8px solid;
-    border-color: #979494;
-}
-#plat03 {
-    border-radius: 80px;
-    border: 8px solid;
-    border-color: #979494;
-}
-
-#plataccueil {
-    display: flex;
-    justify-content: center;
+.bouton1 {
+    display: block;
     text-align: center;
 }
 
-
+.bouton2 {
+    display: block;
+    text-align: center;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 
