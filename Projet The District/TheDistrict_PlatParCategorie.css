@@ -36,15 +36,6 @@ p {
     font-weight: 600;
 }
 
-#recherche {
-    position: relative;
-    bottom: 360px; left: 40px;
-    background-color: #303030;
-    border-radius: 20px;
-    border-color: #979494;
-    color: #ff0000;
-}
-
 #category1 {
     border-radius: 80px;
     border: 8px solid;
@@ -102,11 +93,13 @@ p {
 }
 
 .bouton1 {
-    display: flex;
+    display: block;
+    text-align: center;
 }
 
 .bouton2 {
-    display: flex;
+    display: block;
+    text-align: center;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
@@ -129,5 +122,3 @@ svg text {
 	100% {fill: rgb(0, 0, 0); stroke: rgb(255, 0, 0);
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;}
 }
-
-.wrapper {background-color: #F74A4A};

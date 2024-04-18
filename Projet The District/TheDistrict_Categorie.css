@@ -101,16 +101,6 @@ p {
     text-align: center;
 }
 
-.bouton1 {
-    display: block;
-    text-align: center;
-}
-
-.bouton2 {
-    display: block;
-    text-align: center;
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 
 svg {
@@ -131,5 +121,3 @@ svg text {
 	100% {fill: rgb(0, 0, 0); stroke: rgb(255, 0, 0);
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;}
 }
-
-.wrapper {background-color: #F74A4A};
