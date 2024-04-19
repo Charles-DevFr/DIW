@@ -36,6 +36,39 @@ p {
     font-weight: 600;
 }
 
+#recherche {
+    position: relative;
+    bottom: 360px; left: 40px;
+    background-color: #303030;
+    border-radius: 20px;
+    border-color: #979494;
+    color: #ff0000;
+}
+
+#titreplats {
+    display: flex;
+    justify-content: center;
+    color: #303030;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+#textcard {
+    color: #979494;
+}
+
+.img-fluid {
+    width: 280px;
+    height: 140px;
+}
+
+#plat {
+    background-color: #303030;
+    border-radius: 20px;
+    border: 8px solid;
+    border-color: #979494;
+}
+
 #category1 {
     border-radius: 80px;
     border: 8px solid;
@@ -88,16 +121,6 @@ p {
     text-align: center;
 }
 #category06 {
-    display: block;
-    text-align: center;
-}
-
-.bouton1 {
-    display: block;
-    text-align: center;
-}
-
-.bouton2 {
     display: block;
     text-align: center;
 }
