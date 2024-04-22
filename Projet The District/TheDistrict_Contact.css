@@ -21,7 +21,7 @@
     margin-left: 20px;
 }
 
-#video {
+#image {
     border-radius: 40px;
 }
 
@@ -31,75 +31,14 @@
 
 p {
     height: 40px;
-    color: #303030;
-    font-size: 28px;
-    font-weight: 600;
+    color: #ffffff;
 }
 
-#recherche {
-    position: relative;
-    bottom: 360px; left: 40px;
-    background-color: #303030;
-    border-radius: 20px;
-    border-color: #979494;
-    color: #ff0000;
+#bouton {
+    align-items: end
 }
 
-#category1 {
-    border-radius: 80px;
-    border: 8px solid;
-    border-color: #979494;
-}
-#category2 {
-    border-radius: 80px;
-    border: 8px solid;
-    border-color: #979494;
-}
-#category3 {
-    border-radius: 80px;
-    border: 8px solid;
-    border-color: #979494;
-}
-#category4 {
-    border-radius: 80px;
-    border: 8px solid;
-    border-color: #979494;
-}
-#category5 {
-    border-radius: 80px;
-    border: 8px solid;
-    border-color: #979494;
-}
-#category6 {
-    border-radius: 80px;
-    border: 8px solid;
-    border-color: #979494;
-}
 
-#category01 {
-    display: block;
-    text-align: center;
-}
-#category02 {
-    display: block;
-    text-align: center;
-}
-#category03 {
-    display: block;
-    text-align: center;
-}
-#category04 {
-    display: block;
-    text-align: center;
-}
-#category05 {
-    display: block;
-    text-align: center;
-}
-#category06 {
-    display: block;
-    text-align: center;
-}
 
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 
