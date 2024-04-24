@@ -38,7 +38,11 @@ p {
     align-items: end
 }
 
-
+.animation {
+    position: absolute;
+    bottom: 320px;
+    right: 20px;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 

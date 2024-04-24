@@ -101,11 +101,17 @@ p {
     text-align: center;
 }
 
+.animation {
+    position: absolute;
+    bottom: 320px;
+    right: 20px;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 
 svg {
 	font-family: "Itim", sans-serif;
-	width: 100%; height: 100%;
+	width: 100%; height: 84%;
 }
 svg text {
 	animation: stroke 10s alternate;

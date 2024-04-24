@@ -38,13 +38,18 @@ p {
 
 #recherche {
     position: relative;
-    bottom: 360px; left: 40px;
+    bottom: 360px; left: 20px;
     background-color: #303030;
     border-radius: 20px;
     border-color: #979494;
     color: #ff0000;
 }
 
+.animation {
+    position: absolute;
+    bottom: 320px;
+    right: 20px;
+}
 
 #category1 {
     border-radius: 80px;

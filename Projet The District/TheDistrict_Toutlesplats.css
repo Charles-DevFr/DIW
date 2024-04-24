@@ -62,6 +62,12 @@ p {
     height: 140px;
 }
 
+.animation {
+    position: absolute;
+    bottom: 320px;
+    right: 20px;
+}
+
 #plat {
     background-color: #303030;
     border-radius: 20px;

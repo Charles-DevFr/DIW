@@ -31,6 +31,11 @@
 
 p {
     height: 40px;
+    color: #ff0000;
+}
+
+#textform {
+    font-size: large;
     color: #ffffff;
 }
 
@@ -41,7 +46,19 @@ p {
     border-color: #979794;
 }
 
+.animation {
+    position: absolute;
+    bottom: 320px;
+    right: 20px;
+}
 
+.imagefond {
+    background-image: url("images_the_district/44c57af8f266122fe86368ff0858ee77.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    border: 8px solid;
+    border-color: #979794;
+}
 
 #titrecard {
     color: #979794
