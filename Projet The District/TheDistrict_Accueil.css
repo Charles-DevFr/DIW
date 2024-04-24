@@ -31,7 +31,7 @@
 
 p {
     height: 40px;
-    color: #303030;
+    color: #ffffff;
     font-size: 28px;
     font-weight: 600;
 }
@@ -49,6 +49,16 @@ p {
     position: absolute;
     bottom: 320px;
     right: 20px;
+}
+
+.parallax {
+    background-image: url("images_the_district/f89f6fb34d1677dc7c71dd70bead353c.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: 10px solid;
+    border-color: #303030;
 }
 
 #category1 {
