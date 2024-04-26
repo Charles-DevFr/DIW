@@ -1,65 +1,95 @@
 document.addEventListener('DOMContentLoaded', function () {
+
     const formulaire = document.getElementById("formulaire");
-
+  
+    const inputs = formulaire.querySelectorAll('input, textarea');
+  
+  
     formulaire.addEventListener('submit', function (e) {
-    {
-
-        e.preventDefault();
-
-    filtrealpha = new RegExp(/^[A-Za-z]+$/)
-    filtrenum = new RegExp(/^[0-9]+$/)
-    filtremail = new RegExp(/^[a-z0-9.-]+@[a-z0-9.-]+.[a-z0-9]+$/)
-    filtredate = new RegExp(/^[0-9]+-[0-9]+-[0-9]+$/)
-    var valide = true
-    var nom = document.getElementById("nom").value
-    var prenom = document.getElementById("prenom").value
-    var email = document.getElementById("email").value
-    var telephone = document.getElementById("telephone").value
-    var demande = document.getElementById("demande").value
-    var accepte = document.getElementById("accepte").value
-
-        resultat = filtrealpha.test(nom)
-           if (resultat == false)
-            {
-                valide = false
-                alert (" Entrez votre nom. ")
+  
+      e.preventDefault();
+  
+  
+      const filtreAlpha = /^[A-Za-z]+$/;
+  
+      const filtreNum = /^[0-9]+$/;
+  
+      const filtreMail = /^[a-z0-9.-]+@[a-z0-9.-]+\.[a-z0-9]+$/;
+  
+      let valide = true;
+  
+  
+      inputs.forEach(input => {
+  
+        switch (input.id) {
+  
+          case 'nom':
+  
+          case 'prenom':
+  
+            if (!filtreAlpha.test(input.value)) {
+  
+              valide = false;
+  
+              alert(`Entrez votre ${input.id}.`);
+  
             }
-        
-        resultat = filtrealpha.test(prenom)
-            if (resultat == false)
-            {
-                valide = false
-                alert (" Entrez votre prénom. ")
+  
+            break;
+  
+          case 'email':
+  
+            if (!filtreMail.test(input.value)) {
+  
+              valide = false;
+  
+              alert('Entrez un email valide.');
+  
             }
-        
-        resultat = filtremail.test(email)
-            if (resultat == false)
-            {
-                valide = false
-                alert (" Entrez un email valide. ")
+  
+            break;
+  
+          case 'telephone':
+  
+            if (!filtreNum.test(input.value)) {
+  
+              valide = false;
+  
+              alert('Entrez votre numéro de téléphone.');
+  
             }
-
-        resultat = filtrenum.test(telephone)
-            if (resultat == false)
-            {
-                valide = false
-                alert (" Entrez votre numéro de téléphone. ")
+  
+            break;
+  
+          case 'demande':
+  
+            if (!input.value.trim()) {
+  
+              valide = false;
+  
+              alert('Ecrivez votre question.');
+  
             }
-
-        resultat = filtrealpha.test(demande)
-           if (resultat == false)
-            {
-                valide = false
-                alert (" Ecrivez votre question. ")
-            }
+  
+            break;
+  
+          default:
+  
+            break;
+  
         }
-    })
-})
-    
-    const choisi = document.getElementById("remove")
-    const choixElement = document.getElementById("sujet")
-    choixElement.addEventListener("change", () => 
-        {
-            choisi.remove()
-        }
-    )
+  
+      });
+  
+  
+      if (valide) {
+  
+        // Formulaire valide, vous pouvez maintenant envoyer les données au serveur
+  
+        console.log('Formulaire valide');
+  
+      }
+  
+    });
+  
+  });

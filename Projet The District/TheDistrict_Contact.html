@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="TheDistrict_Contact.css">
 </head>
 <body id="body">
-    <div class="container">
+    <class="container">
         <header>
             <nav class="navbar navbar-expand-lg" id="navbar">
               <div class="container-fluid">
@@ -48,6 +48,7 @@
     </section>
       <br><br>
       <div class="container">
+        <form id="formulaire">
         <div class="row">
           <div class="mb-4 col-6">
             <label for="InputName" class="form-label">Nom</label>
@@ -60,11 +61,11 @@
           </div>
           <div class="mb-4 col-6">
             <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="Charles-DevFr@Gmail.com">
+            <input type="text" class="form-control" id="email" placeholder="Charles-DevFr@Gmail.com">
           </div>
           <div class="mb-4 col-6">
             <label for="phone" class="form-label">Téléphone</label>
-            <input type="number" class="form-control" id="telephone">
+            <input type="text" class="form-control" id="telephone">
             <p>Ce champ est obligatoire</p>
           </div>
           <div class="mb-4 col-12">
@@ -74,8 +75,10 @@
         </div>
       </div>
       <div class="container">
-        <button type="button" class="btn btn-secondary btn-lg" id="bouton" >Envoyer</button>
+        <button type="submit" class="btn btn-secondary btn-lg" id="bouton" >Envoyer</button>
       </div>
+    </form>
+  </div>
       <br><br>
       <div class="container">
         <footer id="baniérebas" class="row">
@@ -83,7 +86,7 @@
         </footer>
       </div>
     </div>
+    <script src="TheDistrict_Contact.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      <script src="TheDistrict_Contact.js"></script>
 </body>
 </html>
