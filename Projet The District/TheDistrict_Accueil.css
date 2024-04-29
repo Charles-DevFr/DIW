@@ -55,7 +55,7 @@ p {
     background-image: url("images_the_district/f89f6fb34d1677dc7c71dd70bead353c.jpg");
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: fill;
     border-radius: 20px;
     border: 10px solid;
     border-color: #303030;
