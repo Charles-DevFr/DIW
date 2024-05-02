@@ -36,15 +36,6 @@ p {
     font-weight: 600;
 }
 
-#recherche {
-    position: relative;
-    bottom: 360px; left: 40px;
-    background-color: #303030;
-    border-radius: 20px;
-    border-color: #979494;
-    color: #ff0000;
-}
-
 #category1 {
     border-radius: 80px;
     border: 8px solid;
@@ -126,4 +117,13 @@ svg text {
 	80%  {fill: rgba(85, 85, 85, 0); stroke: rgba(255, 0, 0, 0.76); stroke-width: 3;}
 	100% {fill: rgb(0, 0, 0); stroke: rgb(255, 0, 0);
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;}
+}
+
+@media screen and (max-width: 600px) {
+    span div img {
+        width: 100%;
+}
+    p {
+        font-size: large;
+    }
 }

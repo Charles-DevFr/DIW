@@ -151,3 +151,19 @@ svg text {
 	100% {fill: rgb(0, 0, 0); stroke: rgb(255, 0, 0);
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;}
 }
+
+@media screen and (max-width: 600px) {
+    #titreplats {
+        font-size: xx-large;
+    }
+    .row div img {
+        width: 68%;
+        height: auto;
+        display: flex;
+    }
+
+    .allplats {
+        min-width: 320px;
+        max-width: 320px;
+    }
+}
