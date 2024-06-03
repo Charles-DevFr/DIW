@@ -21,28 +21,44 @@ document.addEventListener('DOMContentLoaded', function () {
            if (resultat == false)
             {
                 valide = false
-                alert (" Entrez votre nom. ")
+                Swal.fire({
+                    title: "Nom ou prénom invalide",
+                    text: "Entrez un nom et un prénom valide",
+                    icon: "erreur"
+                  });
             }
         
         resultat = filtremail.test(email)
             if (resultat == false)
             {
                 valide = false
-                alert (" Entrez un email valide. ")
+                Swal.fire({
+                    title: "email invalide",
+                    text: "Entrez un email valide",
+                    icon: "erreur"
+                  });
             }
   
         resultat = filtrenum.test(telephone)
             if (resultat == false)
             {
                 valide = false
-                alert (" Entrez votre numéro de téléphone. ")
+                Swal.fire({
+                    title: "Numéro de téléphone invalide",
+                    text: "Entrez un numéro de téléphone valide",
+                    icon: "erreur"
+                  });
             }
   
         resultat = filtrealpha.test(adresse)
            if (resultat == false)
             {
                 valide = false
-                alert (" Ecrivez votre adresse. ")
+                Swal.fire({
+                    title: "Adresse invalide",
+                    text: "Entrez une adresse valide",
+                    icon: "erreur"
+                  });
             }
         }
     })
