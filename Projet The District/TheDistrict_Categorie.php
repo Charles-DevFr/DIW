@@ -10,32 +10,9 @@
 </head>
 <body id="body">
     <div class="container">
-        <header>
-            <nav class="navbar navbar-expand-lg" id="navbar">
-              <div class="container-fluid">
-                <img src="images_the_district/the_district_brand/logo_transparent.png" width="80px" height="80px" >
-                <button id="buttonnavbar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse row" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item col-2 ms-4 ms-md-0">
-                          <a class="nav-link" id="textnavbar" href="TheDistrict_Accueil.html">Accueil</a>
-                        </li>
-                        <li class="nav-item col-2 ms-4 ms-md-0">
-                          <a class="nav-link" id="textnavbar" href="TheDistrict_Categorie.html">Categorie</a>
-                        </li>
-                        <li class="nav-item col-2 ms-4 ms-md-0">
-                          <a class="nav-link" id="textnavbar" href="TheDistrict_Toutlesplats.html">Plats</a>
-                        </li>
-                        <li class="nav-item col-2 ms-4 ms-md-0">
-                          <a class="nav-link" id="textnavbar" href="TheDistrict_Contact.html">Contact</a>
-                        </li>
-                      </ul>
-                </div>
-              </div>
-            </nav>
-          </header>
+        <?php
+        require_once("TheDistrict_header.php");
+        ?>
       <section class="row">
         <div>
           <svg  class="d-none d-md-block animation h-25 position-absolute bottom-50">
@@ -54,7 +31,7 @@
                 <div id="categoryaccueil" class="row">
                     <span class="allcategory col-4">
                       <div id="category01">
-                        <a href="TheDistrict_CatBurger.html">
+                        <a href="TheDistrict_CatBurger.php">
                         <img src="images_the_district/category/burger_cat.jpg" id="category1" class="image-fluid">
                         </a>
                         <p>Burger</p>
@@ -62,7 +39,7 @@
                     </span>
                     <span class="allcategory col-4">
                       <div id="category02">
-                        <a href="TheDistrict_CatPizza.html">
+                        <a href="TheDistrict_CatPizza.php">
                         <img src="images_the_district/category/pizza_cat.jpg" id="category2" class="image-fluid">
                         </a>
                         <p>Pizza</p>
@@ -70,7 +47,7 @@
                     </span>
                     <span class="allcategory col-4">
                       <div id="category03">
-                        <a href="TheDistrict_CatWrap.html">
+                        <a href="TheDistrict_CatWrap.php">
                         <img src="images_the_district/category/wrap_cat.jpg" id="category3" class="image-fluid">
                         </a>
                         <p>Wrap</p>
@@ -78,7 +55,7 @@
                     </span>
                     <span class="allcategory col-4">
                       <div id="category04">
-                        <a href="TheDistrict_CatPasta.html">
+                        <a href="TheDistrict_CatPasta.php">
                         <img src="images_the_district/category/pasta_cat.jpg" id="category4" class="image-fluid">
                         </a>
                         <p>Pasta</p>
@@ -86,7 +63,7 @@
                     </span>
                     <span class="allcategory col-4">
                       <div id="category05">
-                        <a href="TheDistrict_CatAsian.html">
+                        <a href="TheDistrict_CatAsian.php">
                         <img src="images_the_district/category/asian_food_cat.jpg" id="category5" class="image-fluid">
                         </a>
                         <p>Asian</p>
@@ -94,7 +71,7 @@
                     </span>
                     <span class="allcategory col-4">
                       <div id="category06">
-                        <a href="TheDistrict_CatSalade.html">
+                        <a href="TheDistrict_CatSalade.php">
                         <img src="images_the_district/category/salade_cat.jpg" id="category6" class="image-fluid">
                         </a>
                         <p>Salade</p>
@@ -108,7 +85,7 @@
                 <div id="categoryaccueil" class="row">
                     <span class="allcategory col-4">
                       <div id="category01">
-                        <a href="TheDistrcit_CatPlatduterroir.html">
+                        <a href="TheDistrcit_CatPlatduterroir.php">
                         <img src="images_the_district/category/Platduterroir_cat.jpg" id="category1" class="image-fluid">
                         </a>
                         <p>Plat du terroir</p>
@@ -116,7 +93,7 @@
                     </span>
                     <span class="allcategory col-4">
                       <div id="category02">
-                        <a href="TheDistrict_CatSandwich.html">
+                        <a href="TheDistrict_CatSandwich.php">
                         <img src="images_the_district/category/sandwich_cat.jpg" id="category2" class="image-fluid">
                         </a>
                         <p>Sandwich</p>
@@ -124,7 +101,7 @@
                     </span>
                     <span class="allcategory col-4">
                       <div id="category03">
-                        <a href="TheDistrict_CatSnack.html">
+                        <a href="TheDistrict_CatSnack.php">
                         <img src="images_the_district/category/Snack_cat.jpg" id="category3" class="image-fluid">
                         </a>
                         <p>Snack</p>
@@ -132,7 +109,7 @@
                     </span>
                     <span class="allcategory col-4">
                       <div id="category04">
-                        <a href="TheDistrict_CatVeggie.html">
+                        <a href="TheDistrict_CatVeggie.php">
                         <img src="images_the_district/category/veggie_cat.jpg" id="category4" class="image-fluid">
                         </a>
                         <p>Veggie</p>
@@ -140,7 +117,7 @@
                     </span>
                     <span class="allcategory col-4">
                       <div id="category05">
-                        <a href="TheDistrict_CatDessert.html">
+                        <a href="TheDistrict_CatDessert.php">
                         <img src="images_the_district/category/Dessert_cat.jpg" id="category5" class="image-fluid">
                         </a>
                         <p>Dessert</p>
@@ -148,7 +125,7 @@
                     </span>
                     <span class="allcategory col-4">
                       <div id="category06">
-                        <a href="TheDistrict_CatFromage.html">
+                        <a href="TheDistrict_CatFromage.php">
                         <img src="images_the_district/category/Fromage_cat.jpg" id="category6" class="image-fluid">
                         </a>
                         <p>Fromage</p>
@@ -175,9 +152,9 @@
       </div>
       <br><br>
       <div class="container">
-        <footer id="baniérebas" class="row">
-            <img src="images_the_district/Image_ajouté/BaniéreBasFini.jpg">
-        </footer>
+        <?php
+        require_once("TheDistrict_footer.php");
+        ?>
       </div>
     </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

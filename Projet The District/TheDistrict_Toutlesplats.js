@@ -8,5 +8,5 @@ function suivant2 ()
     document.getElementById("bouton2").click();
 }
 function commander(){
-    window.location.href="TheDistrict_Commande.html"
+    window.location.href="TheDistrict_Commande.php"
 }

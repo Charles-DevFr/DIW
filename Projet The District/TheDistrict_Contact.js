@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var email = document.getElementById("email").value
   var telephone = document.getElementById("telephone").value
   var demande = document.getElementById("demande").value
-  var accepte = document.getElementById("bouton").value
 
       resultat = filtrealpha.test(nom)
          if (resultat == false)
@@ -55,3 +54,17 @@ document.addEventListener('DOMContentLoaded', function () {
       }
   })
 })
+
+function createCustomAlert(txt) {
+    d = document;
+
+        if(d.getElementById("modalContainer")) return;
+
+    mObj = d.getElementByTagName("body")[0].appendChild(d.createElement("div"));
+    mObj.id = "modalContainer";
+    mObj.style.height = d.documentEmement.scrollHeight + "px";
+
+    alertObj = mObj.appendChild(d.createElement("div"));
+    alertObj.id = "alertBox";
+        if(d.all && !window.opera) alertObj.style.top = document.body.scrollTop + "
+}

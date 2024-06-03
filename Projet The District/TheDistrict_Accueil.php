@@ -10,32 +10,9 @@
     </head>
     <body id="body">
       <div class="container">
-        <header>
-          <nav class="navbar navbar-expand-lg" id="navbar">
-            <div class="container-fluid">
-              <img src="images_the_district/the_district_brand/logo_transparent.png" width="80px" height="80px" >
-              <button id="buttonnavbar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse row" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                  <li class="nav-item col-2 ms-4 ms-md-0">
-                    <a class="nav-link fs-1" id="textnavbar" href="TheDistrict_Accueil.html">Accueil</a>
-                  </li>
-                  <li class="nav-item col-2 ms-4 ms-md-0">
-                    <a class="nav-link fs-1" id="textnavbar" href="TheDistrict_Categorie.html">Categorie</a>
-                  </li>
-                  <li class="nav-item col-2 ms-4 ms-md-0">
-                    <a class="nav-link fs-1" id="textnavbar" href="TheDistrict_Toutlesplats.html">Plats</a>
-                  </li>
-                  <li class="nav-item col-2 ms-4 ms-md-0">
-                    <a class="nav-link fs-1" id="textnavbar" href="TheDistrict_Contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </header>
+        <?php
+        require_once("TheDistrict_header.php");
+        ?>
         <section class="row">
           <div>
             <svg  class="d-none d-md-block animation h-25 position-absolute bottom-50">
@@ -58,7 +35,7 @@
             <div id="categoryaccueil" class="row">
                 <span class="allcategory col-12 col-md-4">
                   <div id="category01">
-                    <a href="">
+                    <a href="TheDistrict_CatBurger.php">
                     <img src="images_the_district/category/burger_cat.jpg" width="280px" height="280px" id="category1" class="grow">
                     </a>
                     <p>Burger</p>
@@ -66,7 +43,7 @@
                 </span>
                 <span class="allcategory col-12 col-md-4">
                   <div id="category02">
-                    <a href="">
+                    <a href="TheDistrict_CatPizza.php">
                     <img src="images_the_district/category/pizza_cat.jpg" width="280px" height="280px" id="category2" class="grow">
                     </a>
                     <p>Pizza</p>
@@ -74,7 +51,7 @@
                 </span>
                 <span class="allcategory col-12 col-md-4">
                   <div id="category03">
-                    <a href="">
+                    <a href="TheDistrict_CatWrap.php">
                     <img src="images_the_district/category/wrap_cat.jpg" width="280px" height="280px" id="category3" class="grow">
                     </a>
                     <p>Wrap</p>
@@ -82,7 +59,7 @@
                 </span>
                 <span class="allcategory col-12 col-md-4">
                   <div id="category04">
-                    <a href="">
+                    <a href="TheDistrict_CatPasta.php">
                     <img src="images_the_district/category/pasta_cat.jpg" width="280px" height="280px" id="category4" class="grow">
                    </a>
                     <p>Pasta</p>
@@ -90,7 +67,7 @@
                 </span>
                 <span class="allcategory col-12 col-md-4">
                   <div id="category05">
-                    <a href="">
+                    <a href="TheDistrict_CatAsian.php">
                     <img src="images_the_district/category/asian_food_cat.jpg" width="280px" height="280px" id="category5" class="grow">
                     </a>
                     <p>Asian</p>
@@ -98,7 +75,7 @@
                 </span>
                 <span class="allcategory col-12 col-md-4">
                   <div id="category06">
-                    <a href="">
+                    <a href="TheDistrict_CatSalade.php">
                     <img src="images_the_district/category/salade_cat.jpg" width="280px" height="280px" id="category6" class="grow">
                     </a>
                     <p>Salade</p>
@@ -210,9 +187,9 @@
       </div>
       <br><br>
       <div class="container">
-        <footer id="baniérebas" class="row">
-            <img src="images_the_district/Image_ajouté/BaniéreBasFini.jpg">
-        </footer>
+      <?php
+        require_once("TheDistrict_footer.php");
+        ?>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
