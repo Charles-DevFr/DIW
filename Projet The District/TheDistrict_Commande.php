@@ -18,6 +18,7 @@
           <section class="imagefond">
           <br><br>
       <div class="container">
+        <form id="form" action="script/script_commande.php" method="post">
         <div class="row d-flex justify-content-center" id="cardglobal">
           <div class="card mb-3" id="cardcommand" style="max-width: 540px;">
             <div class="row g-0">
@@ -40,22 +41,22 @@
       <div class="row">    
        <div class="col-12">
         <label for="inputname" class="form-label" id="textform">Nom prénom</label>
-        <input type="text" class="form-control" id="nom+prenom">
+        <input type="text" name="nom+prenom class="form-control" id="nom+prenom">
         <p>Ce champ est obligatoire</p>
       </div>
       <div class="col-6">
         <label for="inputemail" class="form-label" id="textform">Email address</label>
-        <input type="email" class="form-control" id="email"laceholder="Charles-DevFr@Gmail.com">
+        <input type="email" name="email" class="form-control" id="email"laceholder="Charles-DevFr@Gmail.com">
         <p>Ce champ est obligatoire</p>
       </div>
       <div class="col-6">
         <label for="inputphone" class="form-label" id="textform">Téléphone</label>
-        <input type="number" class="form-control" id="telephone">
+        <input type="number" name="telephone" class="form-control" id="telephone">
         <p>Ce champ est obligatoire</p>
       </div>
       <div>
         <label for="inputcity" class="form-label" id="textform">Votre adresse</label>
-        <textarea class="form-control" id="adresse" rows="8"></textarea>
+        <textarea class="form-control" name="adresse" id="adresse" rows="8"></textarea>
         <p>Ce champ est obligatoire</p>
       </div>
      </div>
