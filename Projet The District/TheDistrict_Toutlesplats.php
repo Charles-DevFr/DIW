@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The district Plats</title>
-    <link rel="shortcut icon" type="image/png" href="images_the_district/the_district_brand/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="image/the_district_brand/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="TheDistrict_Toutlesplats.css">
+    <link rel="stylesheet" href="css/TheDistrict_Toutlesplats.css">
 </head>
 <body id="body">
     <div class="container">
@@ -21,7 +21,7 @@
             </text>
           </svg>
         </div>
-        <img src="images_the_district/bg2.jpeg" id="image">
+        <img src="image/bg2.jpeg" id="image">
       </section>
       <br><br>
       <div class="container">
@@ -38,7 +38,7 @@
                         <div style="max-width: 600px;">
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
-                              <img src="images_the_district/food/Asian food/bo-bun-poulet.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Asian food/bo-bun-poulet.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                             </div>
                             <div class="col-md-8">
                               <div class="card-body"><br>
@@ -57,7 +57,7 @@
                         <div style="max-width: 600px;">
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
-                              <img src="images_the_district/food/Asian food/boeuf-loc-lac.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Asian food/boeuf-loc-lac.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                             </div>
                             <div class="col-md-8">
                               <div class="card-body"><br>
@@ -78,7 +78,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Asian food/boeuf-oignons.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Asian food/boeuf-oignons.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -100,7 +100,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Asian food/chirachi-mixte.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Asian food/chirachi-mixte.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -127,7 +127,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Burger/burger1.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Burger/burger1.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -148,7 +148,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Burger/burger2.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Burger/burger2.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -170,7 +170,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Burger/burger3.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Burger/burger3.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -192,7 +192,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Burger/burger4.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Burger/burger4.png" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -219,7 +219,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Dessert/CrémeBrulée.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Dessert/CrémeBrulée.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -240,7 +240,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Dessert/MousseChocolat.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Dessert/MousseChocolat.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -262,7 +262,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Dessert/TarteletteCitron.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Dessert/TarteletteCitron.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -284,7 +284,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Dessert/Tiramisu.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Dessert/Tiramisu.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -311,7 +311,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Fromage/Camenbert.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Fromage/Camenbert.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -332,7 +332,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Fromage/Chévre.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Fromage/Chévre.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -354,7 +354,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Fromage/Maroille.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Fromage/Maroille.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -376,7 +376,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Fromage/Mimolette.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Fromage/Mimolette.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -403,7 +403,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Pasta/Coquillette.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Pasta/Coquillette.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -424,7 +424,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Pasta/MacaroniFromage.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Pasta/MacaroniFromage.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -446,7 +446,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Pasta/SpaghettiBolo.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Pasta/SpaghettiBolo.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -468,7 +468,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Pasta/TagliatelleSaumon.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Pasta/TagliatelleSaumon.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -495,7 +495,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href="...">
-                              <img src="images_the_district/food/Pizza/calzone.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Pizza/calzone.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -516,7 +516,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Pizza/raclette.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Pizza/raclette.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -538,7 +538,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Pizza/regina.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Pizza/regina.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -560,7 +560,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Pizza/savoyarde.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Pizza/savoyarde.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -587,7 +587,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Plat Traditionelle/BoeufBourguignon.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Plat Traditionelle/BoeufBourguignon.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -608,7 +608,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Plat Traditionelle/Blanquette.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Plat Traditionelle/Blanquette.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -630,7 +630,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Plat Traditionelle/Choucroute.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Plat Traditionelle/Choucroute.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -652,7 +652,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Plat Traditionelle/Bouillabaisse.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Plat Traditionelle/Bouillabaisse.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -679,7 +679,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Salade/SaladeCesar.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Salade/SaladeCesar.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -700,7 +700,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Salade/SaladeCrevette.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Salade/SaladeCrevette.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -722,7 +722,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Salade/SaladeRiz.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Salade/SaladeRiz.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -744,7 +744,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Salade/SaladeGrec.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Salade/SaladeGrec.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -771,7 +771,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Snack/CroqueMadame.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Snack/CroqueMadame.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -792,7 +792,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Snack/Burrito.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Snack/Burrito.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -814,7 +814,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Snack/TartineChévre.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Snack/TartineChévre.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -836,7 +836,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href=""">
-                              <img src="images_the_district/food/Snack/Kebab.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Snack/Kebab.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -863,7 +863,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href="...">
-                              <img src="images_the_district/food/Veggie/Falafelle.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Veggie/Falafelle.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -884,7 +884,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href="...">
-                              <img src="images_the_district/food/Veggie/CouscousVeggie.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Veggie/CouscousVeggie.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -906,7 +906,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href="...">
-                              <img src="images_the_district/food/Veggie/Gratin.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Veggie/Gratin.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -928,7 +928,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href="...">
-                              <img src="images_the_district/food/Veggie/RisottoChampignon.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Veggie/RisottoChampignon.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -955,7 +955,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href="...">
-                              <img src="images_the_district/food/Wrap/WrapBuffaloChiken.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Wrap/WrapBuffaloChiken.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -975,7 +975,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href="...">
-                              <img src="images_the_district/food/Wrap/WrapPouletCrudite.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Wrap/WrapPouletCrudite.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -995,7 +995,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href="...">
-                              <img src="images_the_district/food/Wrap/WrapLegume.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Wrap/WrapLegume.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -1015,7 +1015,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href="...">
-                              <img src="images_the_district/food/Wrap/WrapPoisson.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Wrap/WrapPoisson.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -1041,7 +1041,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href="...">
-                              <img src="images_the_district/food/Boulangerie/PainBanane.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Boulangerie/PainBanane.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -1061,7 +1061,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href="...">
-                              <img src="images_the_district/food/Boulangerie/PainCereale.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Boulangerie/PainCereale.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -1081,7 +1081,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href="...">
-                              <img src="images_the_district/food/Boulangerie/PainCitrouille.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Boulangerie/PainCitrouille.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -1101,7 +1101,7 @@
                           <div class="row g-0 mt-5" id="plat">
                             <div class="col-md-4">
                               <a href="...">
-                              <img src="images_the_district/food/Boulangerie/PainFromage.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
+                              <img src="image/food/Boulangerie/PainFromage.jpg" class="img-fluid rounded-4 my-4 ms-5 ms-sm-2">
                               </a>
                             </div>
                             <div class="col-md-8">
@@ -1143,6 +1143,6 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="TheDistrict_Toutlesplats.js"></script>
+    <script src="js/TheDistrict_Toutlesplats.js"></script>
   </body>
 </html>

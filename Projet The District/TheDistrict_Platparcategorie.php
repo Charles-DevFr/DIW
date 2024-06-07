@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The district Plats</title>
-    <link rel="shortcut icon" type="image/png" href="images_the_district/the_district_brand/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="image/the_district_brand/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="TheDistrict_Platparcategorie.css">
+    <link rel="stylesheet" href="css/TheDistrict_Platparcategorie.css">
 </head>
 <body id="body">
     <div class="container">
@@ -21,7 +21,7 @@
             </text>
           </svg>
         </div>
-        <img src="images_the_district/bg2.jpeg" id="image">
+        <img src="image/bg2.jpeg" id="image">
       </section>
       <br><br>
       <div class="container">
@@ -40,7 +40,7 @@
                         <div style="max-width: 600px;">
                           <div class="row g-0" id="cat">
                             <div class="col-md-4">
-                              <img src="images_the_district/food/Boulangerie/PainOlive.jpg" class="img-fluid rounded-4" alt="...">
+                              <img src="image/food/Boulangerie/PainOlive.jpg" class="img-fluid rounded-4" alt="...">
                             </div>
                             <div class="col-md-8">
                               <div class="card-body"><br>
@@ -60,7 +60,7 @@
                         <div style="max-width: 600px;">
                           <div class="row g-0" id="cat">
                             <div class="col-md-4">
-                              <img src="images_the_district/food/Boulangerie/PainNoix.jpg" class="img-fluid rounded-4" alt="...">
+                              <img src="image/food/Boulangerie/PainNoix.jpg" class="img-fluid rounded-4" alt="...">
                             </div>
                             <div class="col-md-8">
                               <div class="card-body"><br>
@@ -80,7 +80,7 @@
                         <div style="max-width: 600px;">
                           <div class="row g-0 mt-5" id="cat">
                             <div class="col-md-4">
-                              <img src="images_the_district/food/Boulangerie/PainFromage.jpg" class="img-fluid rounded-4" alt="...">
+                              <img src="image/food/Boulangerie/PainFromage.jpg" class="img-fluid rounded-4" alt="...">
                             </div>
                             <div class="col-md-8">
                               <div class="card-body"><br>
@@ -100,7 +100,7 @@
                         <div style="max-width: 600px;">
                           <div class="row g-0 mt-5" id="cat">
                             <div class="col-md-4">
-                              <img src="images_the_district/food/Boulangerie/PainDepice.jpg" class="img-fluid rounded-4" alt="...">
+                              <img src="image/food/Boulangerie/PainDepice.jpg" class="img-fluid rounded-4" alt="...">
                             </div>
                             <div class="col-md-8">
                               <div class="card-body"><br>
@@ -125,7 +125,7 @@
                         <div style="max-width: 600px;">
                           <div class="row g-0" id="cat">
                             <div class="col-md-4">
-                              <img src="images_the_district/food/Boulangerie/PainCourgette.jpg" class="img-fluid rounded-4" alt="...">
+                              <img src="image/food/Boulangerie/PainCourgette.jpg" class="img-fluid rounded-4" alt="...">
                             </div>
                             <div class="col-md-8">
                               <div class="card-body"><br>
@@ -142,7 +142,7 @@
                         <div style="max-width: 600px;">
                           <div class="row g-0" id="cat">
                             <div class="col-md-4">
-                              <img src="images_the_district/food/Boulangerie/PainCitrouille.jpg" class="img-fluid rounded-4" alt="...">
+                              <img src="image/food/Boulangerie/PainCitrouille.jpg" class="img-fluid rounded-4" alt="...">
                             </div>
                             <div class="col-md-8">
                               <div class="card-body"><br>
@@ -160,7 +160,7 @@
                         <div style="max-width: 600px;">
                           <div class="row g-0 mt-5" id="cat">
                             <div class="col-md-4">
-                              <img src="images_the_district/food/Boulangerie/PainCereale.jpg" class="img-fluid rounded-4" alt="...">
+                              <img src="image/food/Boulangerie/PainCereale.jpg" class="img-fluid rounded-4" alt="...">
                             </div>
                             <div class="col-md-8">
                               <div class="card-body"><br>
@@ -178,7 +178,7 @@
                         <div style="max-width: 600px;">
                           <div class="row g-0 mt-5" id="cat">
                             <div class="col-md-4">
-                              <img src="images_the_district/food/Boulangerie/PainBanane.jpg" class="img-fluid rounded-4" alt="...">
+                              <img src="image/food/Boulangerie/PainBanane.jpg" class="img-fluid rounded-4" alt="...">
                             </div>
                             <div class="col-md-8">
                               <div class="card-body"><br>
@@ -220,6 +220,6 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="TheDistrict_Platparcategorie.js"></script>
+    <script src="js/TheDistrict_Platparcategorie.js"></script>
   </body>
 </html>

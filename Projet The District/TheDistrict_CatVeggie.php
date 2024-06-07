@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The district Plats</title>
-    <link rel="shortcut icon" type="image/png" href="images_the_district/the_district_brand/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="image/the_district_brand/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="PlatCategorie.css">
+    <link rel="stylesheet" href="css/PlatCategorie.css">
 </head>
 <body id="body">
     <div class="container">
@@ -21,7 +21,7 @@
             </text>
           </svg>
         </div>
-        <img src="images_the_district/bg2.jpeg" id="image">
+        <img src="image/bg2.jpeg" id="image">
       </section>
       <br><br>
       <div class="container">
@@ -36,7 +36,7 @@
           <div class="row justify-content-around g-0">
             <div class="card text-center" style="width: 280px;">
               <div class="card-body">
-                <img src="images_the_district/food/Veggie/CouscousVeggie.jpg" class="card-img border border-secondary border-5" alt="...">
+                <img src="image/food/Veggie/CouscousVeggie.jpg" class="card-img border border-secondary border-5" alt="...">
                 <h5 class="card-title">Couscous veggie</h5>
                 <p class="card-text"></p>
                 <a href="TheDistrict_Commande.php" class="btn btn-secondary">Commander</a>
@@ -45,7 +45,7 @@
             <br>
             <div class="card text-center" style="width: 280px;">
               <div class="card-body">
-                <img src="images_the_district/food/Veggie/CroqueVeggie.jpg" class="card-img border border-secondary border-5" alt="...">
+                <img src="image/food/Veggie/CroqueVeggie.jpg" class="card-img border border-secondary border-5" alt="...">
                 <h5 class="card-title">Croque veggie</h5>
                 <p class="card-text"></p>
                 <a href="TheDistrict_Commande.php" class="btn btn-secondary">Commander</a>
@@ -54,7 +54,7 @@
             <br>
             <div class="card text-center" style="width: 280px;">
               <div class="card-body">
-                <img src="images_the_district/food/Veggie/EpinardIndienne.jpg" class="card-img border border-secondary border-5" alt="...">
+                <img src="image/food/Veggie/EpinardIndienne.jpg" class="card-img border border-secondary border-5" alt="...">
                 <h5 class="card-title">Epinard à l'indienne</h5>
                 <p class="card-text"></p>
                 <a href="TheDistrict_Commande.php" class="btn btn-secondary">Commander</a>
@@ -63,7 +63,7 @@
             <br>
             <div class="card text-center" style="width: 280px;">
               <div class="card-body">
-                <img src="images_the_district/food/Veggie/Falafelle.jpg" class="card-img border border-secondary border-5" alt="...">
+                <img src="image/food/Veggie/Falafelle.jpg" class="card-img border border-secondary border-5" alt="...">
                 <h5 class="card-title">Falafelle</h5>
                 <p class="card-text"></p>
                 <a href="TheDistrict_Commande.php" class="btn btn-secondary">Commander</a>
@@ -78,7 +78,7 @@
             <div class="row justify-content-around g-0">
               <div class="card text-center" style="width: 280px;">
                 <div class="card-body">
-                  <img src="images_the_district/food/Veggie/Gratin.jpg" class="card-img border border-secondary border-5" alt="...">
+                  <img src="image/food/Veggie/Gratin.jpg" class="card-img border border-secondary border-5" alt="...">
                   <h5 class="card-title">Gratin veggie</h5>
                   <p class="card-text"></p>
                   <a href="TheDistrict_Commande.php" class="btn btn-secondary">Commander</a>
@@ -87,7 +87,7 @@
               <br>
               <div class="card text-center" style="width: 280px;">
                 <div class="card-body">
-                  <img src="images_the_district/food/Veggie/LegumeMijote.jpg" class="card-img border border-secondary border-5" alt="...">
+                  <img src="image/food/Veggie/LegumeMijote.jpg" class="card-img border border-secondary border-5" alt="...">
                   <h5 class="card-title">Légumes mijotés</h5>
                   <p class="card-text"></p>
                   <a href="TheDistrict_Commande.php" class="btn btn-secondary">Commander</a>
@@ -96,7 +96,7 @@
               <br>
               <div class="card text-center" style="width: 280px;">
                 <div class="card-body">
-                  <img src="images_the_district/food/Veggie/PoisChicheCarotteRoti.jpg" class="card-img border border-secondary border-5" alt="...">
+                  <img src="image/food/Veggie/PoisChicheCarotteRoti.jpg" class="card-img border border-secondary border-5" alt="...">
                   <h5 class="card-title">Pois chiche carotte roti</h5>
                   <p class="card-text"></p>
                   <a href="TheDistrict_Commande.php" class="btn btn-secondary">Commander</a>
@@ -105,7 +105,7 @@
               <br>
               <div class="card text-center" style="width: 280px;">
                 <div class="card-body">
-                  <img src="images_the_district/food/Veggie/RisottoChampignon.jpg" class="card-img border border-secondary border-5" alt="...">
+                  <img src="image/food/Veggie/RisottoChampignon.jpg" class="card-img border border-secondary border-5" alt="...">
                   <h5 class="card-title">Risotto champignon</h5>
                   <p class="card-text"></p>
                   <a href="TheDistrict_Commande.php" class="btn btn-secondary">Commander</a>
